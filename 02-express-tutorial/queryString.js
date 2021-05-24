@@ -100,21 +100,3 @@ app.get('/',(req,res) => {
 app.listen(5000,()=>{
     console.log('Server is listening on port 5000...');
 })
-
-/*
-//just for playing with json
-const newProductsArray = products.map((newproducts)=>{
-    console.log(newproducts);
-    const {name,id} = newproducts
-    return {name,id}
-})
-console.log(newProductsArray);
-*/
-
-
-/*
-const newProducts = products.map((product) =>{
-    const{name,id,image} = product;
-    return{name,id,image}
-})
-*/
