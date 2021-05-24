@@ -19,6 +19,7 @@ app.get('/',(req,res) => {
 //for 404
 app.all('*',(req,res) => {
     res.status(404).send('<h1>Resource not Found</h1>')
+    //res.status(404).json({error: "not found"})
 })
 
 
