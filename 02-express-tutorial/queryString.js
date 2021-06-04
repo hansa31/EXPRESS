@@ -52,7 +52,7 @@ app.get('/api/v1/query',(req,res) => {      //localhost:5000/api/v1/query?name=s
 
     if(search){
         sortedProducts = sortedProducts.filter((product) => {
-            return product.name.startsWith(search)
+            return product.name.startsWith(search)      //always go with return
         })
     }
 
